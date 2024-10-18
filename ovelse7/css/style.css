@@ -1,0 +1,47 @@
+#grid-container{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+#mansory-grid{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+header{
+    background-color: #bfbebe;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.main-side{
+    background-color: blue;
+}
+
+.flex-space-a{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #bfbebe;
+}
+
+.flex-space-a ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+    justify-content: end;
+}
+
+footer{
+    background-color: #bfbebe;
+    color: black;
+    grid-column: 1 / 4;
+    grid-row: 4 / 4;
+}
